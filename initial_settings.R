@@ -33,6 +33,4 @@ out <- ode(y = state.variables,
            times = seq(0, 30, 0.001),
            func = con.profile)
 
-#write.csv(out, "/home/akmal/Desktop/G0-5E-10.csv", row.names = F)
-
 plot(out)
